@@ -9,7 +9,7 @@ import Flower from "../assets/deals/flower.jpg";
 import DyCard from "../Cards/DyCard";
 
 // for deals page images
-import TulipLight from "../assets/deals/TulipLight.avif";
+import Light from "../assets/deals/Light.avif";
 import LunaLED from "../assets/deals/LunaLED.webp";
 import SmallClock from "../assets/deals/SmallClock.jpg";
 import CutieCup from "../assets/deals/CutieCup.webp";
@@ -19,8 +19,8 @@ import KitchenGlove from "../assets/deals/KitchenGlove.jpg";
 import FoamMaker from "../assets/deals/FoamMaker.jpg";
 import BestGlass from "../assets/deals/BestGlass.jpg";
 import ScrubbingBrush from "../assets/deals/ScrubbingBrush.jpg";
-import CuteVase from "../assets/deals/CuteVase.jpg"
-import MattBlack from "../assets/deals/MattBlack.jpg"
+import CuteVase from "../assets/deals/CuteVase.jpg";
+import MattBlack from "../assets/deals/MattBlack.jpg";
 const Deal = () => {
   return (
     <article>
@@ -60,7 +60,7 @@ const Deal = () => {
       {/* for all deals */}
       <h2 className="deal_text">All Deals</h2>
       <div className="deal_block">
-        <DyCard img={TulipLight} name="Tulip Battery light night" price="" />
+        <DyCard img={Light} name="Tulip Battery light night" price="" />
         <DyCard img={LunaLED} name="Luna LED lightnight" price="$19.89" />
         <DyCard img={SmallClock} name="Small Alarm Clock" price="$10.99" />
         <DyCard img={CutieCup} name="Cutie Coffee Cup" price="$7.99" />
