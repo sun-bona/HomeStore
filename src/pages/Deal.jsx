@@ -9,7 +9,7 @@ import Flower from "../assets/deals/flower.jpg";
 import DyCard from "../Cards/DyCard";
 
 // for deals page images
-import Light from "../assets/deals/Light.avif";
+import Light from "../assets/deals/Light.jpg";
 import LunaLED from "../assets/deals/LunaLED.webp";
 import SmallClock from "../assets/deals/SmallClock.jpg";
 import CutieCup from "../assets/deals/CutieCup.webp";

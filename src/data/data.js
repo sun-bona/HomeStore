@@ -9,7 +9,7 @@ import Affordable from "../assets/images/affordable.jpg";
 import AirFryer from "../assets/images/AirFryer.webp";
 import HemnesDresser from "../assets/images/Hemnesdresser.jpg";
 import HallwayStorage from "../assets/images/HallwayStorage.webp";
-import Chests from "../assets/images/Chests.avif";
+import Chests from "../assets/images/Chests.jpg";
 export const isData = [
   {
     id: 1,
@@ -175,7 +175,6 @@ export const isDatas = [
     list: "$80.99",
   },
 ];
-
 
 // allData create for searchBar
 export const allData = [
