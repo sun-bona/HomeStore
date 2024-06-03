@@ -1,0 +1,173 @@
+.nav-bar {
+  width: 100%;
+  background-color: rgb(118, 112, 112);
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  top: 0;
+  padding: 0 1.5rem;
+  box-shadow: 2px 5px 20px rgb(118, 112, 112);
+}
+
+.nav-list {
+  display: flex;
+}
+.logo {
+  max-width: 100px;
+  padding: 0.3rem 0;
+}
+
+.menu {
+  display: none;
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+
+.nav-link > a {
+  color: white;
+  padding: 1rem 3rem;
+  font-size: 2rem;
+  font-weight: 600;
+  transition: all 0.7s;
+}
+.nav-link > a:hover {
+  color: rgb(102, 41, 41);
+  text-decoration: underline;
+}
+.nav-search {
+  width: 35%;
+  height: 35px;
+  border-radius: 13px;
+  overflow: hidden;
+  background-color: rgb(228, 236, 250);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 1rem 0;
+  transition: all 1s;
+}
+.nav-search > input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  padding: 0 0 0 4rem;
+  font-size: 1.5rem;
+  transition: all 1s;
+  background-color: transparent;
+}
+.nav-search > input:focus {
+  outline: none;
+  padding: 0 0 0 1rem;
+}
+.search-icon {
+  height: 100%;
+  width: 9%;
+  background-color: rgb(247, 249, 254);
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+.account {
+  display: flex;
+  padding: 0 1rem;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+}
+#acc {
+  margin-right: 2rem;
+}
+.account p {
+  font-size: 1.7rem;
+  font-weight: 400;
+  padding: 0 0 0 0.7rem;
+  margin-top: 0.6rem;
+}
+.account p > a {
+  color: white;
+}
+
+@media screen and (max-width: 1200px) {
+  .nav-link > a {
+    padding: 0rem 1rem;
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .nav-link > a {
+    padding: 1rem 1rem;
+    font-size: 1.5rem;
+  }
+  .nav-search > input {
+    padding: 0 0 0 2rem;
+  }
+  .search-icon {
+    width: 13%;
+  }
+  #acc {
+    margin-right: 0.8rem;
+  }
+  .account p {
+    font-size: 1.4rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  .nav-bar {
+    padding: 0 1rem;
+    height: 140px;
+    display: flex;
+    align-items: start;
+  }
+  .nav-search {
+    position: absolute;
+    margin: 7rem 0 0 0.6rem;
+    width: 91%;
+  }
+  .search-icon {
+    width: 9%;
+  }
+  .nav-list {
+    position: absolute;
+    margin: 11rem 0 0 0rem;
+  }
+  .nav-link > a {
+    font-size: 1.5rem;
+    padding: 0 1.5rem;
+  }
+  .account p {
+    font-size: 1.7rem;
+  }
+  .account {
+    margin-top: 1.3rem;
+  }
+  .result_search {
+    margin-top: 7.8rem;
+  }
+}
+
+/* for result search  */
+.result_search {
+  position: absolute;
+  background-color: #ffffff;
+  width: 100%;
+  top: 6.25rem;
+  left: 0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.result_search > table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.result_search > table > tbody > tr > td {
+  padding: 0.5rem 1.5rem 0rem 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+.result_search > table > tbody > tr:hover {
+  background-color: #ddd;
+}

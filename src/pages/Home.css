@@ -1,0 +1,294 @@
+section {
+  padding: 0 2rem;
+}
+.start {
+  font-size: 3rem;
+  margin-top: 7rem;
+}
+.house_top {
+  width: 100%;
+  margin-top: 1rem;
+  display: flex;
+}
+.house_top_text {
+  width: 42%;
+  background-color: rgb(217, 217, 217);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.house_top_text > h3 {
+  font-size: 5rem;
+  text-align: center;
+  color: rgb(86, 0, 0);
+  padding: 2rem 1rem;
+}
+.house_top_img {
+  width: 58%;
+  display: flex;
+  align-items: center;
+}
+.house_top_img > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* shop_text */
+.shop_text {
+  font-size: 3rem;
+  margin-top: 1.5rem;
+}
+
+/* for discount */
+.discount {
+  margin: 1.5rem 0 1rem 0;
+  font-size: 3.5rem;
+}
+.discount > span {
+  color: red;
+}
+
+.discount_block {
+  display: grid;
+  gap: 2.5rem;
+  grid-template-columns: repeat(4, 1fr);
+}
+.discount_box {
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.discount_box > h3 {
+  font-size: 2.3rem;
+  font-weight: 700;
+  margin: 1rem 0 0 1.3rem;
+}
+.discount_box > h2 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: rgb(80, 42, 42);
+  margin: -1.5rem 0 0 5rem;
+}
+.discount_box > p {
+  font-size: 1.3rem;
+  margin: 0.5rem 1rem 1rem 1rem;
+  width: 93%;
+  height: 50px;
+}
+.discount_box img {
+  object-fit: cover;
+  width: 100%;
+  height: 300px;
+}
+.one {
+  background-color: rgb(185, 213, 242);
+}
+.two {
+  background-color: rgb(222, 208, 195);
+}
+.tree {
+  background-color: rgb(255, 214, 190);
+}
+.for {
+  background-color: rgb(216, 228, 239);
+}
+
+.house_mid {
+  width: 100%;
+  margin-top: 2.5rem;
+  display: flex;
+  margin-bottom: 2.5rem;
+  background-color: pink;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.house_mid_text {
+  width: 42%;
+  background-color: rgb(241, 217, 217);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.house_mid_text > h3 {
+  font-size: 5rem;
+  text-align: center;
+  color: rgb(86, 0, 0);
+  padding: 2rem 1rem;
+}
+.house_mid_img {
+  width: 58%;
+  display: flex;
+  align-items: center;
+}
+.house_mid_img > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* for Deals block */
+
+.deals {
+  width: 100%;
+  background-color: rgb(247, 243, 243);
+  margin-top: 3rem;
+  padding: 1rem 2rem 3rem 2rem;
+}
+.deals > h2 {
+  font-size: 3rem;
+}
+.deals > h2 > span {
+  font-size: 2rem;
+  font-weight: 400;
+  color: rgb(0, 22, 100);
+  padding-left: 3rem;
+}
+.deals_icon {
+  position: absolute;
+  margin: 1.85rem 0 0 0;
+  color: rgb(95, 95, 95);
+}
+.deals_box {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+/* for Services to Help your shop */
+.service {
+  margin: 1.5rem 0 1rem 0;
+  font-size: 3.5rem;
+}
+.service_block {
+  width: 100%;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+.service_block_box {
+  background-color: rgb(238, 233, 232);
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.service_block_box_text {
+  padding: 2rem 2rem 1rem 2rem;
+}
+.service_block_box_text > h3 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 1;
+  height: 50px;
+}
+.service_block_box_text > p {
+  font-size: 1.8rem;
+  padding: 1rem 0 0 0;
+  line-height: 1.2;
+  height: 65px;
+}
+.service_block_box_pic {
+  width: 100%;
+  height: 100%;
+}
+.service_block_box_pic > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1200px) {
+  .house_top_text > h3 {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .discount_block {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .discount_box img {
+    height: 250px;
+  }
+  .deals_box {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .service_block_box_text > h3 {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  .service_block_box_text > p {
+    font-size: 1.7rem;
+    padding: 0.7rem 0 0 0;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .discount_block {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .start {
+    font-size: 2.5rem;
+    margin-top: 15rem;
+  }
+  .house_top_text > h3 {
+    font-size: 1.5rem;
+    padding: 2rem 0.5rem;
+  }
+  .shop_text {
+    font-size: 2.5rem;
+  }
+  .discount {
+    font-size: 2.5rem;
+  }
+  .deals > h2 {
+    font-size: 2rem;
+  }
+  .deals > h2 > span {
+    font-size: 1.5rem;
+    padding-left: 1.5rem;
+  }
+  .deals_icon {
+    margin: 1rem 0 0 0;
+  }
+  .house_mid_text > h3 {
+    font-size: 2.5rem;
+    padding: 2rem 1.5rem;
+  }
+  .deals_box {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .service {
+    font-size: 2.5rem;
+  }
+  .service_block {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .service_block_box_text {
+    padding: 1.5rem 1.5rem 1rem 1.5rem;
+  }
+  .service_block_box_text > h3 {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  .service_block_box_text > p {
+    font-size: 1.7rem;
+    padding: 0.7rem 0 0 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .discount_box img {
+    height: 200px;
+  }
+  .discount_box > p {
+    margin: -0.5rem 1rem 1rem 1rem;
+  }
+  .deals_box {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
