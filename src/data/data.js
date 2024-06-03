@@ -9,7 +9,7 @@ import Affordable from "../assets/images/affordable.jpg";
 import AirFryer from "../assets/images/AirFryer.webp";
 import HemnesDresser from "../assets/images/Hemnesdresser.jpg";
 import HallwayStorage from "../assets/images/HallwayStorage.webp";
-import Chests from "../assets/images/Chests.jpg";
+import Chests from "../assets/images/Chests.webp";
 export const isData = [
   {
     id: 1,
