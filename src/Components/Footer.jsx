@@ -41,6 +41,7 @@ const Footer = () => {
             <li>Shipping & Delivery</li>
             <li>Orders Pickup</li>
             <li>Account Signup</li>
+            <li>Account Signup</li>
           </ul>
         </div>
       </div>
